@@ -28,7 +28,7 @@ const Navbar = () => {
     }
 
     return (
-        <AppBar position='fixed' style={{ background: 'none', boxShadow: 'none' }}>
+        <AppBar position='static' style={{ background: 'none', boxShadow: 'none' }}>
             <Toolbar>
                 <IconContext.Provider value={{ style: { fontSize: "2rem", color: "#e1306c" } }}>
                     <FaDog onClick={handleLogoClick} />

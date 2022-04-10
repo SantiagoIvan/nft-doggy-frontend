@@ -9,7 +9,7 @@ const AppContext = React.createContext()
 const AppContextProvider = ({ children }) => {
     const [provider, setProvider] = useState(null)
     const [contract, setContract] = useState(null)
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(false)
     const [account, setAccount] = useState(null)
     const [chainId, setChainId] = useState(null)
     const [appDisabled, setAppDisabled] = useState(false)
